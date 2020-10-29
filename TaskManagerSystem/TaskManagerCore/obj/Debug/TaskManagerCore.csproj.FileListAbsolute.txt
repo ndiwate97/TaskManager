@@ -1,0 +1,17 @@
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\TaskManagerCore.dll.config
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\TaskManagerCore.dll
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\TaskManagerCore.pdb
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\EntityFramework.dll
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.dll
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\EntityFramework.xml
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.xml
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.csprojAssemblyReference.cache
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CoreCompileInputs.cache
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CopyComplete
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.dll
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.pdb
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_addingTables.resources
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.GenerateResource.cache
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v2_updatingChanges.resources
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v3_updatingChanges.resources
+E:\AurionPro\TaskManager\TaskManagerSystem\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_addingRole.resources
