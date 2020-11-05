@@ -12,5 +12,11 @@ namespace TaskManagerCore.Models
         public DateTime StartDateTime { get; set; }
         public string Status { get; set; }
         public UserTask Task { get; set; }
+
+
+        public UserSubTask()
+        {
+            Id = Guid.NewGuid();
+        }
     }
 }

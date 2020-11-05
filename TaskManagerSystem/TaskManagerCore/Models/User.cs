@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Razor.Generator;
 
 namespace TaskManagerCore.Models
 {
@@ -21,6 +22,7 @@ namespace TaskManagerCore.Models
         public User()
         {
             UserTasks = new List<UserTask>();
+            Id = Guid.NewGuid();
         }
     }
 }

@@ -1,0 +1,188 @@
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.dll.config
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.dll
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.pdb
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.dll
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.xml
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csprojAssemblyReference.cache
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CoreCompileInputs.cache
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CopyComplete
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.dll
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.pdb
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_user.resources
+G:\Project\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.GenerateResource.cache
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.dll.config
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.pdb
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csprojAssemblyReference.cache
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CoreCompileInputs.cache
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CopyComplete
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.pdb
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Newtonsoft.Json.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.WebHost.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.WebHost.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Net.Http.Formatting.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.WebHost.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\WebActivatorEx.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Newtonsoft.Json.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.WebHost.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.WebHost.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Net.Http.Formatting.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.WebHost.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.DotNet.InternalAbstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Options.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.PlatformAbstractions.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Net.Http.Headers.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Buffers.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Text.Encodings.Web.dll
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Options.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.PlatformAbstractions.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Net.Http.Headers.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Text.Encodings.Web.xml
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_allTablesCreated.resources
+G:\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.GenerateResource.cache
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.dll.config
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\TaskManagerCore.pdb
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.WebHost.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.WebHost.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Buffers.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\WebActivatorEx.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.PlatformAbstractions.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.Common.WebHost.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Ninject.Web.WebApi.WebHost.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csprojAssemblyReference.cache
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CoreCompileInputs.cache
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CopyComplete
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.dll
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.pdb
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_new.resources
+C:\Users\Namrata\Downloads\Telegram Desktop\Task-management-system\Task-management-system\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.GenerateResource.cache

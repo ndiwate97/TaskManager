@@ -18,6 +18,7 @@ namespace TaskManagerCore.Models
         public UserTask()
         {
             SubTasks = new List<UserSubTask>();
+            Id = Guid.NewGuid();
         }
     }
 }

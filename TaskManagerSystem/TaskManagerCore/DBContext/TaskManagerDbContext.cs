@@ -4,7 +4,7 @@ using TaskManagerCore.Models;
 
 namespace TaskManagerCore.DBContext
 {
-    class TaskManagerDbContext : DbContext
+    public class TaskManagerDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<LoginCredentials> Credentials { get; set; }

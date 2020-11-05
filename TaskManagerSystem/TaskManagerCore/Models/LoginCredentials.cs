@@ -11,5 +11,6 @@ namespace TaskManagerCore.Models
         public User User { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }
+
     }
 }
