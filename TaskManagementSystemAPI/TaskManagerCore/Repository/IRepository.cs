@@ -11,6 +11,5 @@ namespace TaskManagerCore.Repository
         void Delete(Guid entityId);
         IQueryable<T> Get();
         T GetById(Guid entityId);
-        IQueryable<T> Find(Expression<Func<T, bool>> specification);
     }
 }

@@ -46,10 +46,5 @@ namespace TaskManagerCore.Repository
             _dbContext.SaveChanges();
         }
 
-        public IQueryable<User> Find(Expression<Func<User, bool>> specification)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }

@@ -31,10 +31,6 @@ namespace TaskManagerCore.Repository
             _dbContext.SaveChanges();
         }
 
-        public IQueryable<SubTask> Find(Expression<Func<SubTask, bool>> specification)
-        {
-            throw new NotImplementedException();
-        }
 
         public IQueryable<SubTask> Get()
         {

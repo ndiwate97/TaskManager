@@ -48,10 +48,5 @@ namespace TaskManagerCore.Repository
             _dbContext.SaveChanges();
         }
 
-        public IQueryable<LoginCredential> Find(Expression<Func<LoginCredential, bool>> specification)
-        {
-            throw new NotImplementedException();
-        }
-
     }
 }
