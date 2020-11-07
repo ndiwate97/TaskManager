@@ -227,11 +227,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
-    <Compile Include="DBContext\ITaskManagerDBContext.cs" />
     <Compile Include="DBContext\TaskManagerDBContext.cs" />
-    <Compile Include="Migrations\202011050850147_v1_new.cs" />
-    <Compile Include="Migrations\202011050850147_v1_new.designer.cs">
-      <DependentUpon>202011050850147_v1_new.cs</DependentUpon>
+    <Compile Include="Migrations\202011070514020_v1_addingTables.cs" />
+    <Compile Include="Migrations\202011070514020_v1_addingTables.designer.cs">
+      <DependentUpon>202011070514020_v1_addingTables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LoginCredential.cs" />
@@ -250,8 +249,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202011050850147_v1_new.resx">
-      <DependentUpon>202011050850147_v1_new.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202011070514020_v1_addingTables.resx">
+      <DependentUpon>202011070514020_v1_addingTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

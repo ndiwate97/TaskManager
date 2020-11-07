@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class v1_new : DbMigration
+    public partial class v1_addingTables : DbMigration
     {
         public override void Up()
         {
@@ -23,7 +23,7 @@
                 "dbo.Users",
                 c => new
                     {
-                        Id = c.Guid(nullable: false),
+                        UserId = c.Guid(nullable: false),
                         FirstName = c.String(),
                         LastName = c.String(),
                         DOB = c.DateTime(nullable: false),
@@ -31,47 +31,47 @@
                         ContactNumber = c.Long(nullable: false),
                         Email = c.String(),
                     })
-                .PrimaryKey(t => t.Id);
+                .PrimaryKey(t => t.UserId);
             
             CreateTable(
                 "dbo.MainTasks",
                 c => new
                     {
-                        Id = c.Guid(nullable: false),
+                        TaskId = c.Guid(nullable: false),
                         TaskName = c.String(),
                         Description = c.String(),
                         StartDateTime = c.DateTime(nullable: false),
                         Status = c.String(),
-                        User_Id = c.Guid(),
+                        UserId = c.Guid(nullable: false),
                     })
-                .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Users", t => t.User_Id)
-                .Index(t => t.User_Id);
+                .PrimaryKey(t => t.TaskId)
+                .ForeignKey("dbo.Users", t => t.UserId, cascadeDelete: true)
+                .Index(t => t.UserId);
             
             CreateTable(
                 "dbo.SubTasks",
                 c => new
                     {
-                        Id = c.Guid(nullable: false),
+                        SubTaskId = c.Guid(nullable: false),
                         SubTaskName = c.String(),
                         Description = c.String(),
                         StartDateTime = c.DateTime(nullable: false),
                         Status = c.String(),
-                        Task_Id = c.Guid(),
+                        TaskId = c.Guid(nullable: false),
                     })
-                .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.MainTasks", t => t.Task_Id)
-                .Index(t => t.Task_Id);
+                .PrimaryKey(t => t.SubTaskId)
+                .ForeignKey("dbo.MainTasks", t => t.TaskId, cascadeDelete: true)
+                .Index(t => t.TaskId);
             
         }
         
         public override void Down()
         {
             DropForeignKey("dbo.LoginCredentials", "Id", "dbo.Users");
-            DropForeignKey("dbo.MainTasks", "User_Id", "dbo.Users");
-            DropForeignKey("dbo.SubTasks", "Task_Id", "dbo.MainTasks");
-            DropIndex("dbo.SubTasks", new[] { "Task_Id" });
-            DropIndex("dbo.MainTasks", new[] { "User_Id" });
+            DropForeignKey("dbo.MainTasks", "UserId", "dbo.Users");
+            DropForeignKey("dbo.SubTasks", "TaskId", "dbo.MainTasks");
+            DropIndex("dbo.SubTasks", new[] { "TaskId" });
+            DropIndex("dbo.MainTasks", new[] { "UserId" });
             DropIndex("dbo.LoginCredentials", new[] { "Id" });
             DropTable("dbo.SubTasks");
             DropTable("dbo.MainTasks");

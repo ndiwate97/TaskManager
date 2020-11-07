@@ -23,12 +23,12 @@ namespace TaskManagerCore.Repository
 
         public User GetById(Guid entityId)
         {
-            return _dbContext.Users.Include("LoginCredential").Where(u => u.Id == entityId).FirstOrDefault();
+            return _dbContext.Users.Include("LoginCredential").Where(u => u.UserId == entityId).FirstOrDefault();
         }
 
         public Guid Add(User entity)
         {
-            Guid guid = _dbContext.Users.Add(entity).Id;
+            Guid guid = _dbContext.Users.Add(entity).UserId;
             _dbContext.SaveChanges();
             return guid;
         }
@@ -41,7 +41,7 @@ namespace TaskManagerCore.Repository
 
         public void Delete(Guid entityId)
         {
-            User user = _dbContext.Users.SingleOrDefault(u => u.Id == entityId);
+            User user = _dbContext.Users.SingleOrDefault(u => u.UserId == entityId);
             _dbContext.Users.Remove(user);
             _dbContext.SaveChanges();
         }

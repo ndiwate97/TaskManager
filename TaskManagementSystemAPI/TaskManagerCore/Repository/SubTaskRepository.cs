@@ -10,27 +10,13 @@ using TaskManagerCore.Models;
 
 namespace TaskManagerCore.Repository
 {
-    class SubTaskRepository : IRepository<SubTask>
+    public class SubTaskRepository : IRepository<SubTask>
     {
         private TaskManagerDBContext _dbContext;
-        public SubTaskRepository()
+        public SubTaskRepository(TaskManagerDBContext context)
         {
-            _dbContext = new TaskManagerDBContext();
+            _dbContext = context;
         }
-        public Guid Add(SubTask entity)
-        {
-            Guid guid = _dbContext.SubTasks.Add(entity).Id;
-            _dbContext.SaveChanges();
-            return guid;
-        }
-
-        public void Delete(Guid entityId)
-        {
-            SubTask subTask = GetById(entityId);
-            _dbContext.SubTasks.Remove(subTask);
-            _dbContext.SaveChanges();
-        }
-
 
         public IQueryable<SubTask> Get()
         {
@@ -39,12 +25,30 @@ namespace TaskManagerCore.Repository
 
         public SubTask GetById(Guid entityId)
         {
-           return _dbContext.SubTasks.Find(entityId);
+            return _dbContext.SubTasks.Where(t => t.SubTaskId == entityId).FirstOrDefault();
+        }
+
+        public Guid Add(SubTask entity)
+        {
+            Guid guid = _dbContext.SubTasks.Add(entity).SubTaskId;
+            _dbContext.SaveChanges();
+            return guid;
         }
 
         public void Update(SubTask entity)
         {
             _dbContext.SubTasks.AddOrUpdate(entity);
+            _dbContext.SaveChanges();
         }
+
+        public void Delete(Guid entityId)
+        {
+            SubTask task = _dbContext.SubTasks.SingleOrDefault(t => t.TaskId == entityId);
+            _dbContext.SubTasks.Remove(task);
+            _dbContext.SaveChanges();
+        }
+
+        
+        
     }
 }

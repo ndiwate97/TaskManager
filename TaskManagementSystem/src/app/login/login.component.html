@@ -1,0 +1,68 @@
+<div class="container-fluid center">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" style="text-align: center;">Login </h3>
+                    </div>
+
+                    <div class="panel-body ">
+                        <form class="form" #LoginForm="ngForm">
+                            <fieldset>
+
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Enter Username" name="uname" type="text"
+                                        #name="ngModel" [(ngModel)]="userModel.uname" required (click)="this.msg=''">
+
+                                    <span ng-show="uname.errors || uname.touched"><br>
+                                        <p class="alert alert-danger" role="alert"
+                                            *ngIf="name.errors?.required && (name.touched || LoginForm.submitted)">
+                                            Enter User Name</p>
+                                    </span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="password" class="form-control" #pass="ngModel"
+                                        [(ngModel)]="userModel.pass" name="pass" placeholder="Enter Password" required
+                                        (click)="this.msg=''">
+
+                                    <span class="error" ng-show="pass.errors || pass.touched"><br>
+                                        <p class="alert alert-danger" role="alert"
+                                            *ngIf="pass.errors?.required && (pass.touched || LoginForm.submitted)">Enter
+                                            the Password</p>
+                                    </span>
+                                </div>
+
+                                <span class="error">{{this.msg}}</span><br>
+
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-info" (click)="onSubmit()">Login</button>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <a routerLink="ForgotPassword">Forget Password?</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div id="register-link" class="text-right">
+                                            <a routerLink="register"> Register here</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -68,6 +68,7 @@ namespace TaskManagerWebAPI.App_Start
             kernel.Bind<IRepository<User>>().To<UserRepository>();
             kernel.Bind<IRepository<LoginCredential>>().To<LoginCredentialRepository>();
             kernel.Bind<IRepository<MainTask>>().To<MainTaskRepository>();
+            kernel.Bind<IRepository<SubTask>>().To<SubTaskRepository>();
         }
     }
 }

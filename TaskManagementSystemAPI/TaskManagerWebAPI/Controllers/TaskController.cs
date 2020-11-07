@@ -22,17 +22,22 @@ namespace TaskManagerWebAPI.Controllers
         }
 
         [Route("")]
-        public IHttpActionResult Get()
-        {
-            var tasks = _mainTaskService.GetAllTask().Select(task =>
+        public IHttpActionResult Get(Guid userId)
+        {            
+            if (_userService.GetUserById(userId) == null)
+            {
+                return NotFound();
+            }
+
+            var tasks = _mainTaskService.GetAllTask(userId).Select(task =>
             new MainTaskDTO()
             {
-                Id = task.Id,
+                Id = task.TaskId,
                 TaskName = task.TaskName,
                Description = task.Description,
                StartDateTime= task.StartDateTime,
                Status = task.Status,
-               userId = task.User.Id
+               //userId = task.User.Id
             }).ToList();
 
             return Ok(tasks);
@@ -40,20 +45,20 @@ namespace TaskManagerWebAPI.Controllers
 
 
         [Route("{taskId}")]
-        public IHttpActionResult GetById(Guid id)
+        public IHttpActionResult GetById(Guid taskId)
         {
-           MainTask task = _mainTaskService.GetTaskById(id);
+            MainTask task = _mainTaskService.GetTaskById(taskId);
             if (task == null)
                 return NotFound();
 
             MainTaskDTO taskDTO = new MainTaskDTO()
             {
-                Id = task.Id,
+                Id = task.TaskId,
                 TaskName = task.TaskName,
                 Description = task.Description,
                 StartDateTime = task.StartDateTime,
                 Status = task.Status,
-                userId = task.User.Id
+                //userId = task.User.Id
             };
 
             return Ok(taskDTO);
@@ -62,8 +67,10 @@ namespace TaskManagerWebAPI.Controllers
 
 
         [Route("AddTask")]
-        public IHttpActionResult AddTask(MainTaskDTO newTask)
+        public IHttpActionResult AddTask(Guid userId, MainTaskDTO newTask)
         {
+            if (_userService.GetUserById(userId) == null)
+                return NotFound();
 
             MainTask task = new MainTask()
             {
@@ -71,27 +78,30 @@ namespace TaskManagerWebAPI.Controllers
                 Description = newTask.Description,
                 StartDateTime = newTask.StartDateTime,
                 Status = newTask.Status,
-                User = _userService.GetUserById(newTask.userId)        
+                UserId = userId        
             };
-
 
             Guid id = _mainTaskService.AddNewTask(task);
 
             return Ok(id);
         }
 
-        [Route("UpdateTask")]
-        public IHttpActionResult PutUpdateTask(Guid taskId, MainTaskDTO taskDTO)
+        [Route("UpdateTask/{taskId}")]
+        public IHttpActionResult PutUpdateTask( Guid taskId, Guid userId, MainTaskDTO taskDTO)
         {
 
-            MainTask task = new MainTask()
+            MainTask task = _mainTaskService.GetTaskById(taskId);
+            if (task == null)
+                return NotFound(); 
+
+            task = new MainTask()
             {
-                Id = taskId,
+                TaskId = taskId,
                 TaskName = taskDTO.TaskName,
                 Description = taskDTO.Description,
                 StartDateTime = taskDTO.StartDateTime,
                 Status = taskDTO.Status,
-                User = _userService.GetUserById(taskDTO.userId)
+                UserId = userId
             };
 
             _mainTaskService.UpdateTask(task);

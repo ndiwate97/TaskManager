@@ -267,9 +267,9 @@ E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\Syste
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.xml
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\bin\Debug\System.Web.Http.WebHost.xml
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csprojAssemblyReference.cache
-E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_new.resources
-E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.GenerateResource.cache
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CoreCompileInputs.cache
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.CopyComplete
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.dll
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.pdb
+E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.Migrations.v1_addingTables.resources
+E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerCore\obj\Debug\TaskManagerCore.csproj.GenerateResource.cache

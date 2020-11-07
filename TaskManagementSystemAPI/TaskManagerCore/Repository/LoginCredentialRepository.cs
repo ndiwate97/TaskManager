@@ -35,7 +35,7 @@ namespace TaskManagerCore.Repository
 
         public void Update(LoginCredential entity)
         {
-            //_dbContext.LoginCredentials.AddOrUpdate(entity);
+            _dbContext.LoginCredentials.AddOrUpdate(entity);
             _dbContext.SaveChanges();
         }
 

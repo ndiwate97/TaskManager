@@ -17,9 +17,9 @@ namespace TaskManagerWebAPI.Service
             _mainTaskRepo = repo;
         }
 
-        public IQueryable<MainTask> GetAllTask()
+        public IQueryable<MainTask> GetAllTask(Guid userId)
         {
-            return _mainTaskRepo.Get();
+            return _mainTaskRepo.Get().Where(mainTask => mainTask.UserId == userId);
         }
 
         public MainTask GetTaskById(Guid id)

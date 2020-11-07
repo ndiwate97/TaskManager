@@ -5,6 +5,7 @@ using System.Web;
 using TaskManagerCore.Models;
 using TaskManagerCore.Repository;
 using TaskManagerWebAPI.Controllers;
+using TaskManagerWebAPI.DTOModels;
 
 namespace TaskManagerWebAPI.Service
 {
@@ -17,29 +18,20 @@ namespace TaskManagerWebAPI.Service
             _loginRepo = loginRepo;
         }
 
-        public IQueryable<LoginCredential> GetAllLoginCredential()
+        public LoginCredential GetLoginCredential(LoginCredentialDTO credential)
         {
-            return _loginRepo.Get();
+            var creds = _loginRepo.Get();
+            return creds.Where(login => login.UserName == credential.UserName && login.Password == credential.Password).SingleOrDefault();
         }
 
-        public LoginCredential GetLoginCredentialById(Guid id)
+        public LoginCredential GetLoginCredentialById(Guid userId)
         {
-            return _loginRepo.GetById(id);
+            return _loginRepo.GetById(userId);
         }
 
-        public Guid AddNewLoginCredential(LoginCredential login)
+        public void UpdatePassword(LoginCredential loginCredential)
         {
-            return _loginRepo.Add(login);
-        }
-
-        public void UpdateLoginCredential(LoginCredential login)
-        {
-            _loginRepo.Update(login);
-        }
-
-        public void DeleteLoginCredential(Guid id)
-        {
-            _loginRepo.Delete(id);
+            _loginRepo.Update(loginCredential);
         }
     }
 }

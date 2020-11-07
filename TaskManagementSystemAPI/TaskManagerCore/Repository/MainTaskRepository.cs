@@ -22,12 +22,12 @@ namespace TaskManagerCore.Repository
 
         public MainTask GetById(Guid entityId)
         {
-            return _dbContext.MainTasks.Include("SubTask").Where(t => t.Id == entityId).FirstOrDefault();
+            return _dbContext.MainTasks.Include("SubTask").Where(t => t.TaskId == entityId).FirstOrDefault();
         }
 
         public Guid Add(MainTask entity)
         {
-            Guid guid = _dbContext.MainTasks.Add(entity).Id;
+            Guid guid = _dbContext.MainTasks.Add(entity).TaskId;
             _dbContext.SaveChanges();
             return guid;
         }
@@ -40,7 +40,7 @@ namespace TaskManagerCore.Repository
 
         public void Delete(Guid entityId)
         {
-            MainTask task = _dbContext.MainTasks.SingleOrDefault(t => t.Id == entityId);
+            MainTask task = _dbContext.MainTasks.SingleOrDefault(t => t.TaskId == entityId);
             _dbContext.MainTasks.Remove(task);
             _dbContext.SaveChanges();
         }

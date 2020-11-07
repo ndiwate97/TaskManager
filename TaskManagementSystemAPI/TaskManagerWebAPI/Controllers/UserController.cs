@@ -28,7 +28,7 @@ namespace TaskManagerWebAPI.Controllers
             var users = _userService.GetAllUser().Select(user =>
             new UserDTO()
             {
-                Id = user.Id,
+                Id = user.UserId,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 DOB = user.DOB,
@@ -50,7 +50,7 @@ namespace TaskManagerWebAPI.Controllers
 
             UserDTO userDTO = new UserDTO()
             {
-                Id = user.Id,
+                Id = user.UserId,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 DOB = user.DOB,
@@ -102,6 +102,7 @@ namespace TaskManagerWebAPI.Controllers
             user.City = userDTO.City;
             user.ContactNumber = userDTO.ContactNumber;
             user.Email = userDTO.Email;
+            user.LoginCredential.UserName = userDTO.Email;
             _userService.UpdateUser(user);
 
             return Ok(userId);

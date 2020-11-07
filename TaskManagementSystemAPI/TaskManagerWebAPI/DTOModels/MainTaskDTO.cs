@@ -13,6 +13,5 @@ namespace TaskManagerWebAPI.DTOModels
         public string Description { get; set; }
         public DateTime StartDateTime { get; set; }
         public string Status { get; set; }
-        public Guid userId { get; set; }
     }
 }
