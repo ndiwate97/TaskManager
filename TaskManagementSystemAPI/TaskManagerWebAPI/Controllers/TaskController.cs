@@ -4,12 +4,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using TaskManagerCore.Models;
 using TaskManagerWebAPI.DTOModels;
 using TaskManagerWebAPI.Service;
 
 namespace TaskManagerWebAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/v1/user/{userId}/task")]
     public class TaskController : ApiController
     {

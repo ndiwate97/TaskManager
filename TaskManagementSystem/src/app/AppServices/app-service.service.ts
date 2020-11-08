@@ -14,5 +14,17 @@ export class AppServiceService {
   login(data){
     return this.http.post("https://localhost:44304/api/v1/login",data);
   }
+
+  register(data){
+    return this.http.post("https://localhost:44304/api/v1/user/Register",data);
+  }
+
+  getAllTask(id){
+    return this.http.get("https://localhost:44304/api/v1/user/"+id+"/task");
+  }
+
+  getUserById(id){
+    return this.http.get("https://localhost:44304/api/v1/user/"+id);
+  }
   
 }

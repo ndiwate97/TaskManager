@@ -1,0 +1,11 @@
+<header class="page-header font-large shadow ">
+  <nav class="navbar navbar-light bg-info  ">
+
+      <i class="fa fa-pencil-square-o fa-2x" aria-hidden="true" style="min-width: max-content;" > Task Management System</i>
+      <div style="min-width: max-content; text-align:right" *ngIf="userName!=null">
+        <i class="fa fa-user" aria-hidden="true"  > {{userName}}</i>
+        &nbsp;
+        <i class="fa fa-sign-out" aria-hidden="true" (click)="logout()"> Logout</i></div>
+
+  </nav>
+</header>

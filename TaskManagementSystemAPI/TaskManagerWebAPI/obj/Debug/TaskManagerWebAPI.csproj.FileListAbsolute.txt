@@ -418,3 +418,6 @@ E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\obj\Debug\Tas
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\obj\Debug\TaskManagerWebAPI.csproj.CopyComplete
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\obj\Debug\TaskManagerWebAPI.dll
 E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\obj\Debug\TaskManagerWebAPI.pdb
+E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\bin\System.Web.Cors.dll
+E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\bin\System.Web.Http.Cors.dll
+E:\AurionPro\TaskManager\TaskManagementSystemAPI\TaskManagerWebAPI\bin\System.Web.Http.Cors.xml

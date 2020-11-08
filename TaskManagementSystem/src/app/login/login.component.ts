@@ -22,6 +22,7 @@ export class LoginComponent implements OnInit {
 
   }
 
+  userId: any;
 
   constructor(private router: Router, private service: AppServiceService) { }
 
@@ -31,18 +32,24 @@ export class LoginComponent implements OnInit {
     console.log("", this.userModel.uname)
     console.log("", this.userModel.pass)
 
-    this.router.navigate(['/task'])
-    /*
-    this.service.login(this.userModel).subscribe((response: any) => {
+    // this.router.navigate(['/task'])
+
+    const payload = {
+      UserName: this.userModel.uname,
+      Password: this.userModel.pass
+    }
+
+    this.service.login(payload).subscribe((response: any) => {
       console.log('res', response);
-      if (response == ok) {
+      if (response != null) {
         this.router.navigate(['/task'])
-        localStorage.setItem('sessionId', response.userId);
+        this.userId = response;
+        localStorage.setItem('sessionId', response);
       }
       else
         this.msg = "Invalid credentials";
     });
-    */
+
 
   }
 

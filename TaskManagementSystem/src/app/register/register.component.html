@@ -14,18 +14,38 @@
                     <div class="col-md-6">
 
                         <div class="form-group">
-                            <input type="text" name="first_name" id="first_name" class="form-control input-lg"
-                                placeholder="First Name" tabindex="1">
+                            <input type="text" name="first_name" id="first_name" #firstName="ngModel"
+                                [(ngModel)]="userModel.firstName" class="form-control input-lg" placeholder="First Name"
+                                tabindex="1">
+
+                            <span class="alert" ng-show="first_name.errors || first_name.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="firstName.errors?.required && (firstName.touched || RegisterForm.submitted)">
+                                    Enter First Name</p>
+                            </span>
                         </div>
 
                         <div class="form-group">
-                            <input type="text" name="city" id="city" class="form-control input-lg" placeholder="City"
-                                tabindex="3">
+                            <input type="text" name="city" id="city" #city="ngModel" [(ngModel)]="userModel.city"
+                                class="form-control input-lg" placeholder="City" tabindex="3">
+
+                            <span class="alert" ng-show="city.errors || city.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="city.errors?.required && (city.touched || RegisterForm.submitted)">
+                                    Enter City</p>
+                            </span>
                         </div>
 
                         <div class="form-group">
-                            <input type="text" name="number" id="number" class="form-control input-lg"
-                                placeholder="Phone No" tabindex="5">
+                            <input type="text" name="phoneNo" id="phoneNo" #phoneNo="ngModel"
+                                pattern="^((\\+91-?)|0)?[0-9]{10}$" [(ngModel)]="userModel.phoneNo"
+                                class="form-control input-lg" placeholder="Phone No" tabindex="5">
+
+                            <span class="alert" ng-show="phoneNo.errors || phoneNo.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="phoneNo.errors?.required && (phoneNo.touched || RegisterForm.submitted)">
+                                    Enter Phone No</p>
+                            </span>
                         </div>
 
                     </div>
@@ -33,17 +53,37 @@
                     <div class="col-md-6">
 
                         <div class="form-group">
-                            <input type="text" name="last_name" id="last_name" class="form-control input-lg"
-                                placeholder="Last Name" tabindex="2">
+                            <input type="text" name="last_name" id="last_name" #lastName="ngModel"
+                                [(ngModel)]="userModel.lastName" class="form-control input-lg" placeholder="Last Name"
+                                tabindex="2">
+
+                            <span class="alert" ng-show="lastName.errors || lastName.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="lastName.errors?.required && (lastName.touched || RegisterForm.submitted)">
+                                    Enter Last Name</p>
+                            </span>
                         </div>
 
                         <div class="form-group">
-                            <input class="form-control input-lg" id="bdate" placeholder="Date of Birth" tabindex="4" />
+                            <input class="form-control input-lg" name="DOB" id="bdate" #dateofBirth="ngModel"
+                                [(ngModel)]="userModel.dateofBirth" placeholder="Date of Birth" tabindex="4" />
+
+                            <span class="alert" ng-show="dateofBirth.errors || dateofBirth.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="dateofBirth.errors?.required && (dateofBirth.touched || RegisterForm.submitted)">
+                                    Enter Date of Birth</p>
+                            </span>
                         </div>
 
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control input-lg"
-                                placeholder="Email Address" tabindex="6">
+                            <input type="email" name="email" id="email" #email="ngModel" [(ngModel)]="userModel.email"
+                                class="form-control input-lg" placeholder="Email Address" tabindex="6">
+
+                            <span class="alert" ng-show="email.errors || email.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="email.errors?.required && (email.touched || RegisterForm.submitted)">
+                                    Enter Email Id</p>
+                            </span>
                         </div>
 
                     </div>
@@ -52,12 +92,29 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="password" name="password" id="password" class="form-control input-lg"
-                                placeholder="Password" tabindex="6">
+                            <input type="password" name="password" id="password" #password="ngModel"
+                                [(ngModel)]="userModel.password" class="form-control input-lg" placeholder="Password"
+                                tabindex="7">
+                            <span class="alert" ng-show="password.errors || password.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="password.errors?.required && (password.touched || RegisterForm.submitted)">
+                                    Enter Email Id</p>
+                            </span>
                         </div>
                         <div class="form-group">
                             <input type="password" name="password_confirmation" id="password_confirmation"
-                                class="form-control input-lg" placeholder="Confirm Password" tabindex="7">
+                                #confirmPassword="ngModel" [(ngModel)]="confirm_Password" class="form-control input-lg"
+                                placeholder="Confirm Password" tabindex="8">
+
+                            <span class="alert" ng-show="password.errors || password.touched"><br>
+                                <p class="alert alert-danger" role="alert"
+                                    *ngIf="confirmPassword.errors?.required && (confirmPassword.touched || RegisterForm.submitted)">
+                                    Enter Email Id</p>
+                            </span>
+                            <span class="alert" *ngIf="confirmPassword.value!=password.value ">
+                                <p class="alert alert-danger" role="alert">
+                                    Password did not match</p>
+                            </span>
                         </div>
                     </div>
                 </div>

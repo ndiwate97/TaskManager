@@ -5,15 +5,18 @@ import { RouterModule, Routes } from '@angular/router';
 //import, ourComponent, will give the Router somewhere to go
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { ForgetPasswordComponent } from './forget-password/forget-password.component';
+import { TaskComponent } from './task/task.component';
 
 
 /* Routes tell the Router which view to display 
  path: a string that matches the URL in the browser address bar.
  component: the component that the router should create when navigating to this route.*/
 const routes: Routes = [
-  { path: '' , component: LoginComponent },
+  { path: '', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  
+  { path: 'forgotPassword', component: ForgetPasswordComponent },
+  {path: 'task', component: TaskComponent}
 ];
 
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using TaskManagerCore.Models;
 using TaskManagerCore.Repository;
@@ -12,6 +13,7 @@ using TaskManagerWebAPI.Service;
 
 namespace TaskManagerWebAPI.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/v1/user")]
     public class UserController : ApiController
     {
@@ -42,9 +44,9 @@ namespace TaskManagerWebAPI.Controllers
 
 
         [Route("{UserId}")]
-        public IHttpActionResult GetById(Guid id)
+        public IHttpActionResult GetById(Guid UserId)
         {
-            User user = _userService.GetUserById(id);
+            User user = _userService.GetUserById(UserId);
             if (user == null)
                 return NotFound();
 
@@ -69,7 +71,7 @@ namespace TaskManagerWebAPI.Controllers
         {
             LoginCredential creds = new LoginCredential()
             {
-                UserName = register.FirstName="_"+register.LastName,
+                UserName = register.Email,
                 Password = register.UserPass
             };
             User user = new User()

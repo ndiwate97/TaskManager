@@ -1,0 +1,59 @@
+<div style="text-align:center" class="container-fluid">
+
+
+  <form>
+
+    <div class="row">
+      <div class="col-md-12" style="text-align:right">
+        <nav class="navbar navbar-light ">
+          <button type="button" class="btn btn-info float-right">
+            <i class="fa fa-plus" aria-hidden="true">
+              Add New Task
+            </i>
+          </button>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+
+    <div style="text-align:right">
+      
+    </div>
+    <div>
+
+      
+      <table id="table">
+        <tr>
+          <th>Task Id</th>
+          <th>TaskName</th>
+          <th>Description</th>
+          <th>StartDateTime</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+
+        <tbody *ngIf="list?.length > 0">
+          <tr *ngFor="let ls of list">
+            <td> {{ls.Id ? ls.Id['@nil'] ? '-' : ls.Id : '-'}}</td>
+            <td> {{ls.TaskName ? ls.TaskName['@nil'] ? '-' : ls.TaskName : '-'}}</td>
+            <td> {{ls.Description ? ls.Description['@nil'] ? '-' : ls.Description : '-'}}</td>
+            <td> {{ls.StartDateTime ? ls.StartDateTime['@nil'] ? '-' : ls.StartDateTime : '-'}}</td>
+            <td> {{ls.Status ? ls.Status['@nil'] ? '-' : ls.Status : '-'}}</td>
+            <td> <i class="fa fa-trash" aria-hidden="true" style="font-size:24px; color:red"
+                (click)="removeData(ls.ID)"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a [routerLink]="['/updateemp',ls.ID]">
+                <i class="fa fa-pencil" aria-hidden="true" style="font-size:24px; color:green"></i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+
+  </form>
+</div>
