@@ -12,7 +12,10 @@ export class TaskComponent implements OnInit {
   list: any;
 
   userId: any = localStorage.getItem('sessionId');
-  constructor(private service: AppServiceService, private router: Router) { }
+  
+  constructor(private service: AppServiceService, private router: Router) {
+    this.ngOnInit();
+   }
 
   ngOnInit() {
     this.getTasks();
@@ -41,5 +44,12 @@ export class TaskComponent implements OnInit {
         console.log("this.list->", this.list)
       }
     })
+  }
+
+  removeData(id){
+    this.service.deleteTask(this.userId,id).subscribe((res: any) => {
+      console.log("res of deletedEmp",res)  
+    })
+    this.ngOnInit();
   }
 }

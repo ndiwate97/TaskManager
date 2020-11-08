@@ -13,6 +13,8 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import { TaskComponent } from './task/task.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { AddTaskComponent } from './task/add-task/add-task.component';
+import { EditTaskComponent } from './task/edit-task/edit-task.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HeaderComponent } from './header/header.component';
     ForgetPasswordComponent,
     TaskComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    AddTaskComponent,
+    EditTaskComponent
   ],
   imports: [
     BrowserModule,
