@@ -34,7 +34,7 @@ namespace TaskManagerWebAPI.Controllers
             var subTasks = _subTaskService.GetAllSubTask(taskId).Select(subTask =>
             new SubTaskDTO()
             {
-                Id = subTask.TaskId,
+                Id = subTask.SubTaskId,
                 SubTaskName = subTask.SubTaskName,
                 Description = subTask.Description,
                 StartDateTime = subTask.StartDateTime,
@@ -53,7 +53,7 @@ namespace TaskManagerWebAPI.Controllers
 
             SubTaskDTO taskDTO = new SubTaskDTO()
             {
-                Id = task.TaskId,
+                Id = task.SubTaskId,
                 SubTaskName = task.SubTaskName,
                 Description = task.Description,
                 StartDateTime = task.StartDateTime,

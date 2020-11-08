@@ -15,6 +15,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { AddTaskComponent } from './task/add-task/add-task.component';
 import { EditTaskComponent } from './task/edit-task/edit-task.component';
+import { SubtaskComponent } from './subtask/subtask.component';
+import { AddSubtaskComponent } from './subtask/add-subtask/add-subtask.component';
+import { EditSubtaskComponent } from './subtask/edit-subtask/edit-subtask.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { EditTaskComponent } from './task/edit-task/edit-task.component';
     FooterComponent,
     HeaderComponent,
     AddTaskComponent,
-    EditTaskComponent
+    EditTaskComponent,
+    SubtaskComponent,
+    AddSubtaskComponent,
+    EditSubtaskComponent
   ],
   imports: [
     BrowserModule,

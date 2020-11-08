@@ -9,6 +9,9 @@ import { ForgetPasswordComponent } from './forget-password/forget-password.compo
 import { TaskComponent } from './task/task.component';
 import { AddTaskComponent } from './task/add-task/add-task.component';
 import { EditTaskComponent } from './task/edit-task/edit-task.component';
+import { SubtaskComponent } from './subtask/subtask.component';
+import { AddSubtaskComponent } from './subtask/add-subtask/add-subtask.component';
+import { EditSubtaskComponent } from './subtask/edit-subtask/edit-subtask.component';
 
 
 /* Routes tell the Router which view to display 
@@ -21,6 +24,10 @@ const routes: Routes = [
   { path: 'task', component: TaskComponent },
   { path: 'addTask', component: AddTaskComponent },
   { path: 'editTask/:id', component: EditTaskComponent },
+  { path: 'subTask/:id', component: SubtaskComponent },
+  { path: 'addSubTask/:id', component: AddSubtaskComponent },
+  { path: 'editSubTask/:taskId/:id', component: EditSubtaskComponent },
+
 ];
 
 

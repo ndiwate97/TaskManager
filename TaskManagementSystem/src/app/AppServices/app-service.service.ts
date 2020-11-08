@@ -42,4 +42,25 @@ export class AppServiceService {
   updateTask(data, userId, taskId) {
     return this.http.put("https://localhost:44304/api/v1/user/" + userId + "/task/UpdateTask/" + taskId, data);
   }
+
+  getAllSubTask(userId, taskId) {
+    return this.http.get("https://localhost:44304/api/v1/user/" + userId + "/task/" + taskId + "/subTask");
+  }
+
+  addSubtask(data, userId, taskId) {
+    return this.http.post("https://localhost:44304/api/v1/user/" + userId + "/task/" + taskId + "/subTask/AddSubTask", data);
+  }
+
+  getSubtaskById(userId, taskId, subtaskId) {
+    return this.http.get("https://localhost:44304/api/v1/user/" + userId + "/task/" + taskId + "/subTask/"+subtaskId);
+  }
+
+  updateSubtask(data,userId, taskId, subtaskId) {
+    return this.http.put("https://localhost:44304/api/v1/user/" + userId + "/task/" + taskId + "/subTask/UpdateSubTask/" + subtaskId, data);
+  }
+
+  
+  deleteSubtask(userId, taskId, subtaskId) {
+    return this.http.delete("https://localhost:44304/api/v1/user/"+userId+"/task/"+taskId+"/subTask/DeleteSubTask?subTaskId="+subtaskId)
+  }
 }

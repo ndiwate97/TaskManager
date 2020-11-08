@@ -43,7 +43,7 @@ namespace TaskManagerCore.Repository
 
         public void Delete(Guid entityId)
         {
-            SubTask task = _dbContext.SubTasks.SingleOrDefault(t => t.TaskId == entityId);
+            SubTask task = _dbContext.SubTasks.SingleOrDefault(t => t.SubTaskId == entityId);
             _dbContext.SubTasks.Remove(task);
             _dbContext.SaveChanges();
         }

@@ -6,10 +6,10 @@
     <div class="row mt-2 ">
       <div class="col-md-12" style="text-align:right">
         <nav class="navbar navbar-light ">
-          <a routerLink="/addTask">
+          <a [routerLink]="['/addSubTask',taskId]">
             <button type="button" class="btn btn-info float-right">
               <i class="fa fa-plus" aria-hidden="true">
-                Add New Task
+                Add New Subtask
               </i>
             </button>
           </a>
@@ -21,8 +21,7 @@
       <div class="col-md-12">
         <table class="table">
           <tr class="thead-light">
-            <th>Task Id</th>
-            <th>TaskName</th>
+            <th>Name</th>
             <th>Description</th>
             <th>StartDateTime</th>
             <th>Status</th>
@@ -31,21 +30,16 @@
 
           <tbody *ngIf="list?.length > 0">
             <tr *ngFor="let ls of list">
-              <td> {{ls.Id ? ls.Id['@nil'] ? '-' : ls.Id : '-'}}</td>
-              <td> {{ls.TaskName ? ls.TaskName['@nil'] ? '-' : ls.TaskName : '-'}}</td>
+              <td> {{ls.SubTaskName ? ls.SubTaskName['@nil'] ? '-' : ls.SubTaskName : '-'}}</td>
               <td> {{ls.Description ? ls.Description['@nil'] ? '-' : ls.Description : '-'}}</td>
               <td> {{ls.StartDateTime ? ls.StartDateTime['@nil'] ? '-' : ls.StartDateTime : '-'}}</td>
               <td> {{ls.Status ? ls.Status['@nil'] ? '-' : ls.Status : '-'}}</td>
               <td> <i class="fa fa-trash" aria-hidden="true" style="font-size:24px; color:red"
                   (click)="removeData(ls.Id)"></i>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a [routerLink]="['/editTask',ls.Id]">
+                <a [routerLink]="['/editSubTask'+'/'+taskId,ls.Id]">
                   <i class="fa fa-pencil" aria-hidden="true" style="font-size:24px; color:green"></i>
                 </a>
-                <a [routerLink]="['/subTask',ls.Id]">
-                  <button type="button" class="btn btn-info float-right">
-                    Sub Task
-                  </button>
-                </a>
+                
               </td>
             </tr>
           </tbody>
